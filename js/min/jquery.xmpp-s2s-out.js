@@ -1,0 +1,1 @@
+jQuery(document).ready(function(t){function u(){t.ajax({method:"GET",url:xmpp_s2s_out.data_url,timeout:xmpp_s2s_out.timeout,success:function(u){t("#xmpp_s2s_out").html(u.data)},error:function(){t("#xmpp_s2s_out").html("-")}})}u(),setInterval(function(){u()},3e5)});

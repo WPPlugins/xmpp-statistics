@@ -1,0 +1,1 @@
+function showToolTip(i,o,d,t){screen.width>768?jQuery('<div id="flot-tooltip">'+t+"</div>").css({top:d-16,left:o+20}).appendTo("body").fadeIn(200):jQuery('<div id="flot-tooltip" class="mobile">'+t+"</div>").css({top:8,right:13,display:"inline"}).appendTo(i).fadeIn(200)}

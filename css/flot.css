@@ -1,0 +1,22 @@
+.graph-container > h3{
+text-align:center;
+}
+.graph-container .axisLabels{
+top:-9px !important;
+}
+.graph-placeholder{
+width:100%;
+}
+.graph-placeholder i{
+display:block;
+font-size:34px;
+text-align:center;
+}
+#flot-tooltip{
+font-size:12px;
+position:absolute;
+border:1px solid #EEE;
+padding: 5px 8px;
+background-color:#FFF;
+opacity:0.8;
+}
